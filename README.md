@@ -1,0 +1,2 @@
+# learning_cpp_functional_programming_kor
+Learning_C++_Functional_Programming 한국어판 예제 코드
