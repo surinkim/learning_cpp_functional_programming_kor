@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1508133869 source:c:\repos\learning_cpp_functional_programming_kor\codeblocks\chapter01\auto\auto.cpp
+	<iostream>
+	<typeinfo>
+
