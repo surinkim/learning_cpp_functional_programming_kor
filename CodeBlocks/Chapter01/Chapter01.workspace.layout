@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
 <CodeBlocks_workspace_layout_file>
 	<FileVersion major="1" minor="0" />
-	<ActiveProject path="auto/auto.cbp" />
+	<ActiveProject path="range_based_for_loop/range_based_for_loop.cbp" />
 	<PreferredTarget name="Debug" />
 </CodeBlocks_workspace_layout_file>

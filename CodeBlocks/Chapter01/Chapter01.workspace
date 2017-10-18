@@ -2,5 +2,8 @@
 <CodeBlocks_workspace_file>
 	<Workspace title="Chapter01">
 		<Project filename="auto/auto.cbp" />
+		<Project filename="decltype/decltype.cbp" />
+		<Project filename="begin_end/begin_end.cbp" />
+		<Project filename="range_based_for_loop/range_based_for_loop.cbp" />
 	</Workspace>
 </CodeBlocks_workspace_file>
