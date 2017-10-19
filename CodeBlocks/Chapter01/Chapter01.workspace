@@ -5,5 +5,10 @@
 		<Project filename="decltype/decltype.cbp" />
 		<Project filename="begin_end/begin_end.cbp" />
 		<Project filename="range_based_for_loop/range_based_for_loop.cbp" />
+		<Project filename="array/array.cbp" />
+		<Project filename="vector/vector.cbp" />
+		<Project filename="sort/sort.cbp" />
+		<Project filename="find/find.cbp" />
+		<Project filename="for_each/for_each.cbp" />
 	</Workspace>
 </CodeBlocks_workspace_file>
