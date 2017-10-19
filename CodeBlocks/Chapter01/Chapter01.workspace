@@ -10,5 +10,8 @@
 		<Project filename="sort/sort.cbp" />
 		<Project filename="find/find.cbp" />
 		<Project filename="for_each/for_each.cbp" />
+		<Project filename="lambda_multiline_func/lambda_multiline_func.cbp" />
+		<Project filename="lambda_tiny_func/lambda_tiny_func.cbp" />
+		<Project filename="lambda_returning_value/lambda_returning_value.cbp" />
 	</Workspace>
 </CodeBlocks_workspace_file>

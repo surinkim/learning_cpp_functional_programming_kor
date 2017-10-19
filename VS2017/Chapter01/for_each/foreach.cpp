@@ -35,4 +35,5 @@ auto main() -> int
 	for_each(begin(vehicles), end(vehicles), PrintOut);
 
 	return 0;
-}
+}
+

@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1508415445 source:c:\repos\learning_cpp_functional_programming_kor\codeblocks\chapter01\lambda_tiny_func\lambda_tiny_func.cpp
+	<vector>
+	<algorithm>
+	<iostream>
+	"../vehicle/vehicle.h"
+
+1508388932 c:\repos\learning_cpp_functional_programming_kor\codeblocks\chapter01\vehicle\vehicle.h
+	<string>
+
