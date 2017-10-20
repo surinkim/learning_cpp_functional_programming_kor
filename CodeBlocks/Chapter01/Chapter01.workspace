@@ -16,5 +16,7 @@
 		<Project filename="lambda_capturing_by_value/lambda_capturing_by_value.cbp" />
 		<Project filename="lambda_capturing_by_value_mutable/lambda_capturing_by_value_mutable.cbp" />
 		<Project filename="lambda_capturing_by_reference/lambda_capturing_by_reference.cbp" />
+		<Project filename="lambda_initialization_captures/lambda_initialization_captures.cbp" />
+		<Project filename="lambda_expression_generic/lambda_expression_generic.cbp" />
 	</Workspace>
 </CodeBlocks_workspace_file>
