@@ -13,5 +13,8 @@
 		<Project filename="lambda_multiline_func/lambda_multiline_func.cbp" />
 		<Project filename="lambda_tiny_func/lambda_tiny_func.cbp" />
 		<Project filename="lambda_returning_value/lambda_returning_value.cbp" />
+		<Project filename="lambda_capturing_by_value/lambda_capturing_by_value.cbp" />
+		<Project filename="lambda_capturing_by_value_mutable/lambda_capturing_by_value_mutable.cbp" />
+		<Project filename="lambda_capturing_by_reference/lambda_capturing_by_reference.cbp" />
 	</Workspace>
 </CodeBlocks_workspace_file>
