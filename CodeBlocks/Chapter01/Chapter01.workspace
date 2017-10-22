@@ -22,5 +22,9 @@
 		<Project filename="unique_ptr_2/unique_ptr_2.cbp" />
 		<Project filename="unique_ptr_3/unique_ptr_3.cbp" />
 		<Project filename="shared_ptr_1/shared_ptr_1.cbp" />
+		<Project filename="weak_ptr_1/weak_ptr_1.cbp" />
+		<Project filename="tuples_1/tuples_1.cbp" />
+		<Project filename="tuples_2/tuples_2.cbp" />
+		<Project filename="tuples_3/tuples_3.cbp" />
 	</Workspace>
 </CodeBlocks_workspace_file>
