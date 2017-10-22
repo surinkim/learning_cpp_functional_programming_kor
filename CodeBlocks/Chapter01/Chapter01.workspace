@@ -18,5 +18,9 @@
 		<Project filename="lambda_capturing_by_reference/lambda_capturing_by_reference.cbp" />
 		<Project filename="lambda_initialization_captures/lambda_initialization_captures.cbp" />
 		<Project filename="lambda_expression_generic/lambda_expression_generic.cbp" />
+		<Project filename="unique_ptr_1/unique_ptr_1.cbp" />
+		<Project filename="unique_ptr_2/unique_ptr_2.cbp" />
+		<Project filename="unique_ptr_3/unique_ptr_3.cbp" />
+		<Project filename="shared_ptr_1/shared_ptr_1.cbp" />
 	</Workspace>
 </CodeBlocks_workspace_file>
