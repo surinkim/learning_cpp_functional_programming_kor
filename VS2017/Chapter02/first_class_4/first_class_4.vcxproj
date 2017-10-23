@@ -20,9 +20,9 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
-    <ProjectGuid>{C24E8C7D-0D89-41D4-A99B-91CBD698D5B0}</ProjectGuid>
+    <ProjectGuid>{A23AA702-126E-4612-ADA9-33998B1687C0}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>first_class_2cpp</RootNamespace>
+    <RootNamespace>first_class_4</RootNamespace>
     <WindowsTargetPlatformVersion>10.0.15063.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -150,7 +150,7 @@
     <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="firstclass2cpp.cpp" />
+    <ClCompile Include="firstclass4.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
