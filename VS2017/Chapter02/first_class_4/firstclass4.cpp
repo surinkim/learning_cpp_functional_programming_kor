@@ -17,6 +17,7 @@ using std::transform;
 using std::back_inserter;
 using std::cout;
 using std::endl;
+using ::sinh;
 
 // double 타입을 인자로 받고 double 타입을 반환하는 HyperbolicFunc란 이름의 
 // 함수 타입을 정의한다.
@@ -24,19 +25,19 @@ typedef function<double(double)> HyperbolicFunc;
 
 // 4개의 함수를 가지도록 벡터를 초기화한다.
 vector<HyperbolicFunc> funcs = {
-	sinh,
-	cosh,
-	tanh,
-	[](double x) {
+	static_cast<double(&)(double)>(sinh),
+	static_cast<double(&)(double)>(cosh),
+	static_cast<double(&)(double)>(tanh),
+	[](float x) {
 	return x*x; }
 };
 
 // 4개의 함수를 가지도록 벡터를 초기화한다.
 vector<HyperbolicFunc> inverseFuncs = {
-	asinh,
-	acosh,
-	atanh,
-	[](double x) {
+	static_cast<double(&)(double)>(asinh),
+	static_cast<double(&)(double)>(acosh),
+	static_cast<double(&)(double)>(atanh),
+	[](long double x) {
 	return exp(log(x) / 2); }
 };
 

@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1508814987 source:c:\repos\learning_cpp_functional_programming_kor\codeblocks\chapter01\first_class_4\first_class_4.cpp
+	<vector>
+	<cmath>
+	<algorithm>
+	<functional>
+	<iostream>
+

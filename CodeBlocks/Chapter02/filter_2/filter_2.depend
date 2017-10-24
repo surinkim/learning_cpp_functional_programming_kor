@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1508826396 source:c:\repos\learning_cpp_functional_programming_kor\codeblocks\chapter01\filter_2\filter_2.cpp
+	<vector>
+	<algorithm>
+	<iterator>
+	<iostream>
+

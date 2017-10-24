@@ -108,5 +108,6 @@ auto main() -> int
 	cout << "Result = " << functions.at(i - 1)(a, b) << endl;
 	
 	return 0;
-}
+}
+
 
