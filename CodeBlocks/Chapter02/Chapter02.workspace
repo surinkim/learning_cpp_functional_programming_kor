@@ -8,5 +8,7 @@
 		<Project filename="transform_1/transform_1.cbp" />
 		<Project filename="filter_1/filter_1.cbp" />
 		<Project filename="filter_2/filter_2.cbp" />
+		<Project filename="fold_1/fold_1.cbp" />
+		<Project filename="fold_2/fold_2.cbp" />
 	</Workspace>
 </CodeBlocks_workspace_file>
