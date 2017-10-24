@@ -50,5 +50,6 @@ int main()
 	cout << "foldr result = " << foldr << endl;
 
 	return 0;
-}
+}
+
 
