@@ -13,5 +13,7 @@
 		<Project filename="pure_function_1/pure_function_1.cbp" />
 		<Project filename="impure_function_1/impure_function_1.cbp" />
 		<Project filename="im_pure_function_1/im_pure_function_1.cbp" />
+		<Project filename="curry_1/curry_1.cbp" />
+		<Project filename="curry_2/curry_2.cbp" />
 	</Workspace>
 </CodeBlocks_workspace_file>
