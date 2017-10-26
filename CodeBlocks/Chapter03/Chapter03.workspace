@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_workspace_file>
+	<Workspace title="Chapter03">
+		<Project filename="mutable_1/mutable_1.cbp" />
+		<Project filename="immutable_1/immutable_1.cbp" />
+	</Workspace>
+</CodeBlocks_workspace_file>
