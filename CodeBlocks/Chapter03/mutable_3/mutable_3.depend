@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1509083835 source:c:\repos\learning_cpp_functional_programming_kor\codeblocks\chapter03\mutable_3\mutable_3.cpp
+	<iostream>
+	"../mutableemployee/mutableemployee.h"
+
+1509080446 c:\repos\learning_cpp_functional_programming_kor\codeblocks\chapter03\mutableemployee\mutableemployee.h
+	<string>
+

@@ -39,5 +39,6 @@ auto main() -> int
 	cout << endl;
 
 	return 0;
-}
+}
+
 
