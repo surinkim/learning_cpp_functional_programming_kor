@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1508681223 source:c:\repos\learning_cpp_functional_programming_kor\codeblocks\chapter01\tuples_3\tuples_3.cpp
+	<tuple>
+	<iostream>
+

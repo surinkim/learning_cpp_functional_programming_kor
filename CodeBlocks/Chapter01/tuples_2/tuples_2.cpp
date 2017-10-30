@@ -9,11 +9,11 @@ auto main() -> int
 	cout << "[tuples_2.cpp]" << endl;
 
 	// 두 개의 튜플을 초기화 한다.
-	tuple<int, const char*, bool> t1(1, "Robert", true);
+	tuple<int, string, bool> t1(1, "Robert", true);
 	auto t2 = make_tuple(2, "Anna", false);
 
 	int i;
-	const char* s;
+	string s;
 	bool b;
 
 	// t1에서 값을 추출한다.

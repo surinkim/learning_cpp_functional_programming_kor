@@ -9,7 +9,7 @@ auto main() -> int
 	cout << "[tuples_1.cpp]" << endl;
 
 	// 두 개의 튜플을 초기화 한다.
-	tuple<int, const char*, bool> t1(1, "Robert", true);
+	tuple<int, string, bool> t1(1, "Robert", true);
 	auto t2 = make_tuple(2, "Anna", false);
 
 	// t1의 각 원소를 출력한다.

@@ -4,7 +4,7 @@
 
 using namespace std;
 
-tuple<int, const char*, bool> GetData(int DataId)
+tuple<int, string, bool> GetData(int DataId)
 {
 	if (DataId == 1)
 		return std::make_tuple(0, "Chloe", false);
@@ -27,7 +27,7 @@ auto main() -> int
 	cout << endl << endl;
 
 	int i;
-	const char* s;
+	string s;
 	bool b;
 	tie(i, s, b) = GetData(2);
 	cout << "Details of Id 2" << endl;
