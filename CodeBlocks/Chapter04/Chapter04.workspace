@@ -9,5 +9,7 @@
 		<Project filename="tail_recursion/tail_recursion.cbp" />
 		<Project filename="factorial_recursion_tail/factorial_recursion_tail.cbp" />
 		<Project filename="tail_recursion_goto/tail_recursion_goto.cbp" />
+		<Project filename="exponential_iteration/exponential_iteration.cbp" />
+		<Project filename="exponential_recursion/exponential_recursion.cbp" />
 	</Workspace>
 </CodeBlocks_workspace_file>
