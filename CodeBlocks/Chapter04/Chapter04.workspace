@@ -11,5 +11,7 @@
 		<Project filename="tail_recursion_goto/tail_recursion_goto.cbp" />
 		<Project filename="exponential_iteration/exponential_iteration.cbp" />
 		<Project filename="exponential_recursion/exponential_recursion.cbp" />
+		<Project filename="permutation/permutation.cbp" />
+		<Project filename="labyrinth/labyrinth.cbp" />
 	</Workspace>
 </CodeBlocks_workspace_file>
