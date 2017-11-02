@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1509590058 source:c:\repos\learning_cpp_functional_programming_kor\codeblocks\chapter05\delaying_non_pure_memoization\delaying_non_pure_memoization.cpp
+	<iostream>
+	<functional>
+
