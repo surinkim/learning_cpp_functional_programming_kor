@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1509694804 source:c:\repos\learning_cpp_functional_programming_kor\codeblocks\chapter05\prime_lazy\prime_lazy.cpp
+	<iostream>
+	<cmath>
+	"../lazyevaluation/lazyevaluation.h"
+
+1509693777 c:\repos\learning_cpp_functional_programming_kor\codeblocks\chapter05\lazyevaluation\lazyevaluation.h
+	<functional>
+	<memory>
+
