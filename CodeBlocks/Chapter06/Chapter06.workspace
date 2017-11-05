@@ -3,5 +3,9 @@
 	<Workspace title="Chapter06">
 		<Project filename="macro/macro.cbp" />
 		<Project filename="macroswap/macroswap.cbp" />
+		<Project filename="types/types.cbp" />
+		<Project filename="selectingtype/selectingtype.cbp" />
+		<Project filename="condition/condition.cbp" />
+		<Project filename="conditionmeta/conditionmeta.cbp" />
 	</Workspace>
 </CodeBlocks_workspace_file>
