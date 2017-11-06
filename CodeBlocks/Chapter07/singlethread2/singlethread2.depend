@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1509937841 source:c:\repos\learning_cpp_functional_programming_kor\codeblocks\chapter07\singlethread2\singlethread2.cpp
+	<thread>
+	<chrono>
+	<iostream>
+
