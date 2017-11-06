@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1509965545 source:c:\repos\learning_cpp_functional_programming_kor\codeblocks\chapter07\multithread\multithread.cpp
+	<thread>
+	<iostream>
+

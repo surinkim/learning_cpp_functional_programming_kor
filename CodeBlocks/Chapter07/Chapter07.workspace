@@ -3,5 +3,8 @@
 	<Workspace title="Chapter07">
 		<Project filename="singlethread/singlethread.cbp" />
 		<Project filename="singlethread2/singlethread2.cbp" />
+		<Project filename="multithread/multithread.cbp" />
+		<Project filename="lambdathread/lambdathread.cbp" />
+		<Project filename="notsync/notsync.cbp" />
 	</Workspace>
 </CodeBlocks_workspace_file>

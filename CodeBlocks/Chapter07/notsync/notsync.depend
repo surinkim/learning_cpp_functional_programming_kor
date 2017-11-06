@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1509974544 source:c:\repos\learning_cpp_functional_programming_kor\codeblocks\chapter07\notsync\notsync.cpp
+	<thread>
+	<iostream>
+
