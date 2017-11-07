@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1510034055 source:c:\repos\learning_cpp_functional_programming_kor\codeblocks\chapter07\deadlock\deadlock.cpp
+	<thread>
+	<mutex>
+	<iostream>
+
