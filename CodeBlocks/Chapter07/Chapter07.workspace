@@ -6,5 +6,15 @@
 		<Project filename="multithread/multithread.cbp" />
 		<Project filename="lambdathread/lambdathread.cbp" />
 		<Project filename="notsync/notsync.cbp" />
+		<Project filename="mutex/mutex.cbp" />
+		<Project filename="automutex/automutex.cbp" />
+		<Project filename="deadlock/deadlock.cbp" />
+		<Project filename="recursivemutex/recursivemutex.cbp" />
+		<Project filename="threadhandle/threadhandle.cbp" />
+		<Project filename="threaduniquehandle/threaduniquehandle.cbp" />
+		<Project filename="event/event.cbp" />
+		<Project filename="eventthread/eventthread.cbp" />
+		<Project filename="eventthread2/eventthread2.cbp" />
+		<Project filename="eventthread3/eventthread3.cbp" />
 	</Workspace>
 </CodeBlocks_workspace_file>

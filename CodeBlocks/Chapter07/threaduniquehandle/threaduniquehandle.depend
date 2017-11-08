@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1510110712 source:c:\repos\learning_cpp_functional_programming_kor\codeblocks\chapter07\threaduniquehandle\threaduniquehandle.cpp
+	<iostream>
+	<windows.h>
+	"../uniquehandle_h/uniquehandle.h"
+
+1510110712 c:\repos\learning_cpp_functional_programming_kor\codeblocks\chapter07\uniquehandle_h\uniquehandle.h
+	<windows.h>
+
