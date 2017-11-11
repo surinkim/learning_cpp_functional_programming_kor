@@ -66,7 +66,7 @@ auto main() -> int
 	// Customer 객체
 	Customer customer;
 
-	// 계약이 체결된 고객의 이름을 얻고 콘솔에 출력
+	// 계약이 체결된 고객의 이름 목록을 구해서 콘솔에 출력
 	cout << "List of active customer names:" << endl;
 	vector<string> activeCustomerNames =
 		customer.GetActiveCustomerNames();

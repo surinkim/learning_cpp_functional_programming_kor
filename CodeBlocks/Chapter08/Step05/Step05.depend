@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1510375345 source:c:\repos\learning_cpp_functional_programming_kor\codeblocks\chapter08\step05\customer.cpp
+	<algorithm>
+	"Customer.h"
+
+1510375345 c:\repos\learning_cpp_functional_programming_kor\codeblocks\chapter08\step05\customer.h
+	<string>
+	<vector>
+	<memory>
+
+1510375345 source:c:\repos\learning_cpp_functional_programming_kor\codeblocks\chapter08\step05\main.cpp
+	<iostream>
+	<chrono>
+	"Customer.h"
+

@@ -1,13 +1,15 @@
-/* Main.cpp - Step03 */
+/* Main.cpp - Step04 */
 #include <iostream>
 #include "Customer.h"
 
 using namespace std;
 
-void RegisterCustomers()
+vector<Customer> RegisterCustomers()
 {
 	int i = 0;
 	bool b = false;
+
+	vector<Customer> returnValue;
 
 	// 고객 이름으로 nameList 초기화
 	vector<string> nameList =
@@ -23,9 +25,6 @@ void RegisterCustomers()
 		"Sherlyn",
 		"Molly"
 	};
-
-	// 벡터 registeredCustomers의 모든 원소 제거
-	Customer::registeredCustomers.clear();
 
 	for (auto name : nameList)
 	{
@@ -43,19 +42,17 @@ void RegisterCustomers()
 		// false, true를 번갈아 가며 저장함.
 		b = !b;
 
-		// 생성한 Customer 객체를 벡터 registeredCustomers에 저장
-		Customer::registeredCustomers.push_back(c);
+		// 생성한 Customer 객체를 벡터 returnValue에 저장
+		returnValue.push_back(c);
 	}
+
+	return returnValue;
 }
 
 auto main() -> int
 {
-	cout << "[Step03]" << endl;
+	cout << "[Step04]" << endl;
 	cout << "--------" << endl;
-
-	// Customer 객체를 생성하고 멤버 변수의 값을 채운 뒤,
-	// registeredCustomers에 저장한다.
-	RegisterCustomers();
 
 	// Customer 객체
 	Customer customer;
@@ -63,11 +60,14 @@ auto main() -> int
 	// 계약이 체결된 고객의 이름 목록을 구해서 콘솔에 출력
 	cout << "List of active customer names:" << endl;
 	vector<string> activeCustomerNames =
-		customer.GetActiveCustomerNames();
-	for (auto &name : activeCustomerNames)
+		customer.GetActiveCustomerNames(
+			RegisterCustomers());
+	for (auto name : activeCustomerNames)
 	{
 		cout << name << endl;
 	}
 
 	return 0;
 }
+
+
