@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1510286412 source:c:\repos\learning_cpp_functional_programming_kor\codeblocks\chapter08\step01\customer.cpp
+	"Customer.h"
+
+1510286412 c:\repos\learning_cpp_functional_programming_kor\codeblocks\chapter08\step01\customer.h
+	<string>
+	<vector>
+
