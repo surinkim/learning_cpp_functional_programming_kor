@@ -7,21 +7,21 @@
 class ImmutableEmployee
 {
 private:
-	int m_id;
-	std::string m_firstName;
-	std::string m_lastName;
-	double m_salary;
+	const int m_id;
+	const std::string m_firstName;
+	const std::string m_lastName;
+	const double m_salary;
 
 public:
 	ImmutableEmployee(
-		const int id,
+		const int& id,
 		const std::string& firstName,
 		const std::string& lastName,
 		const double& _salary);
 	ImmutableEmployee();
 	~ImmutableEmployee() {};
 	
-	const int Id() const {
+	const int& Id() const {
 		return m_id;
 	}
 	
@@ -33,12 +33,12 @@ public:
 		return m_lastName;
 	}
 	
-	const double Salary() const {
+	const double& Salary() const {
 		return m_salary;
 	}
 	
 	const ImmutableEmployee SetId(
-		const int id) const {
+		const int& id) const {
 		return ImmutableEmployee(
 			id, m_firstName, m_lastName, m_salary);
 	}

@@ -18,7 +18,7 @@ auto main() -> int
 	cout << endl;
 
 	// n을 수정하기 위해서 Modify() 함수를 호출한다.
-	// Modify() 함수는 string의 참조(reference)를 인자로 받으므로
+	// Modify() 함수는 string의 참조(reference)를 인수로 받으므로
 	// 함수 호출 후에 n 값이 변한다.
 	Modify(n);
 

@@ -70,10 +70,6 @@ auto main() -> int
 	// MyFunction 클래스 인스턴스를 생성한다.
 	MyFunction func(a, b);
 
-	// Generating wrapper for each function
-	// in the MyFunction class
-	// so it will be the first-class function
-
 	// MyFunction 클래스의 각 멤버 함수에 대한 래퍼를 만든다.
 	// 이 래퍼 함수는 이제 일급 함수다.
 	auto callableAdd = mem_fn(&MyFunction::addition);

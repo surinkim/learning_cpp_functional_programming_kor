@@ -10,7 +10,7 @@ ImmutableEmployee::ImmutableEmployee() :
 }
 
 ImmutableEmployee::ImmutableEmployee(
-	const int id,
+	const int& id,
 	const string& firstName,
 	const string& lastName,
 	const double& salary) :
