@@ -37,7 +37,7 @@ bool PrimeCheck(int i)
 
 auto main() -> int
 {
-	cout << "[delaying.cpp]" << endl;
+	cout << "[prime.cpp]" << endl;
 
 	// 카운트 변수 초기화
 	int n = 0;
