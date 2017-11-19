@@ -9,7 +9,8 @@
 
 using namespace std;
 
-// 전달된 인수가 소수인지 아닌지 판단하는 템플릿 정의
+// 전달된 인수가 소수인지 아닌지 판단하는
+// IsPrime 기본 템플릿 정의
 template <
 	int lastNumber,
 	int secondLastNumber>
@@ -25,8 +26,8 @@ public:
 	};
 };
 
-// number 매개변수에 전달된 숫자가 소수인지 아닌지
-// 확인하는 템플릿 정의
+// IsPrime 템플릿의 두 번째 매개변수가 
+// 1일 때의 부분 특수화 정의
 template <int number>
 class IsPrime<number, 1>
 {
@@ -37,7 +38,8 @@ public:
 	};
 };
 
-// 전달된 인수가 소수이면 콘솔에 출력하는 템플릿 정의
+// 전달된 인수가 소수이면 콘솔에 출력하는
+// PrimeNumberPrinter 기본 템플릿 정의
 template <int number>
 class PrimeNumberPrinter
 {
@@ -61,8 +63,8 @@ public:
 	}
 };
 
-// 매개변수에 대한 인수로 1을 전달했을 때
-// 무시하기 위한 템플릿 정의
+// number가 1일 때의 
+// PrimeNumberPrinter 템플릿 특수화 정의
 template<>
 class PrimeNumberPrinter<1>
 {

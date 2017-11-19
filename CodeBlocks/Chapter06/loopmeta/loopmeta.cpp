@@ -9,7 +9,7 @@ void PrintNumber(int i)
 	cout << i << "\t";
 }
 
-// limit 매개변수에 전달된 값을 출력하는 템플릿 정의.
+// limit 매개변수에 전달된 값을 출력하는 기본 템플릿 정의.
 // limit이 0보다 클 때만 동작한다.
 template<int limit>
 class DoWhile
@@ -29,6 +29,7 @@ public:
 	}
 };
 
+// limit이 0일 때의 템플릿 특수화 정의
 // limit이 0이 되면 아무 처리도 하지 않는다.
 template<>
 class DoWhile<0>

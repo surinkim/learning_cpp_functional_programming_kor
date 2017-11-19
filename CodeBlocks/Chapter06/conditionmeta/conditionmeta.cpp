@@ -15,14 +15,14 @@ void FalseStatement()
 	cout << "False Statement is run." << endl;
 }
 
-// IfElse 템플릿 정의
+// IfElse 기본 템플릿 정의
 template<bool predicate>
 class IfElse
 {
 };
 
-// predicate 매개변수가 TRUE 일 때의
-// 템플릿 정의
+// predicate가 true일 때의
+// 템플릿 특수화
 template<>
 class IfElse<true>
 {
@@ -33,8 +33,8 @@ public:
 	}
 };
 
-// predicate 매개변수가 FALSE 일 때의
-// 템플릿 정의
+// predicate가 false일 때의
+// 템플릿 특수화
 template<>
 class IfElse<false>
 {

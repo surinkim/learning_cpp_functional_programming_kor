@@ -15,7 +15,7 @@ int Square(int a)
 	return a * a;
 }
 
-// 기본값을 출력하는 템플릿 정의
+// 기본 템플릿 정의
 template<int val>
 class SwitchTemplate
 {
@@ -26,7 +26,7 @@ public:
 	}
 };
 
-// val이 1 일 때의 템플릿 정의
+// val이 1 일 때의 템플릿 특수화 정의
 template<>
 class SwitchTemplate<1>
 {
@@ -37,7 +37,7 @@ public:
 	}
 };
 
-// val이 2 일 때의 템플릿 정의
+// val이 2 일 때의 템플릿 특수화 정의
 template<>
 class SwitchTemplate<2>
 {

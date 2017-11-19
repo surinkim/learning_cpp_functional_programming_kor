@@ -4,7 +4,7 @@
 using namespace std;
 
 // 피보나치 순열을 계산하는
-// 템플릿 정의
+// 기본 템플릿 정의
 template <int number>
 struct Fibonacci
 {
@@ -17,7 +17,7 @@ struct Fibonacci
 };
 
 // number 매개변수가 1일 때의
-// 템플릿 정의
+// 템플릿 특수화 정의
 template <>
 struct Fibonacci<1>
 {
@@ -28,7 +28,7 @@ struct Fibonacci<1>
 };
 
 // number 매개변수가 0일 때의
-// 템플릿 정의
+// 템플릿 특수화 정의
 template <>
 struct Fibonacci<0>
 {

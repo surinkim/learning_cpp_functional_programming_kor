@@ -163,18 +163,30 @@ auto main() -> int
 	
 	// 무한 소수 리스트를 생성한다.
 	Row<int> r = GenerateInfinitePrimeRow();
+
+	bool b = r.IsEmpty();
 	
 	// 무한 소수 리스트에서 처음 100개의 원소를 가져온다.
 	Row<int> firstAHundredPrimeNumbers = r.Pick(100);
 	
 	// 100개의 소수를 출력한다.
 	cout << "List of the first 100 prime numbers:" << endl;
-	ForEach(
+	/*ForEach(
 		move(firstAHundredPrimeNumbers),
 		[](int const & i)
 	{
 		cout << i << "\t";
-	});
+	});*/
+
+
+	while (!firstAHundredPrimeNumbers.IsEmpty())
+	{
+		cout << firstAHundredPrimeNumbers.Fetch() << "\t";
+
+		firstAHundredPrimeNumbers = firstAHundredPrimeNumbers.ShiftLastToFirst();
+	}
+
+
 	
 	return 0;
 }
