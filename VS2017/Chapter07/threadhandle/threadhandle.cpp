@@ -10,7 +10,7 @@
 
 using namespace std;
 
-auto threadProc(void*) -> unsigned long
+auto WINAPI threadProc(void*) -> unsigned long
 {
 	cout << "threadProc() is run." << endl;
 	return 100;
