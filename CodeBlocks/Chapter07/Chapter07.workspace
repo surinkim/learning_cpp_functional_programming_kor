@@ -2,7 +2,6 @@
 <CodeBlocks_workspace_file>
 	<Workspace title="Chapter07">
 		<Project filename="singlethread/singlethread.cbp" />
-		<Project filename="singlethread2/singlethread2.cbp" />
 		<Project filename="multithread/multithread.cbp" />
 		<Project filename="lambdathread/lambdathread.cbp" />
 		<Project filename="notsync/notsync.cbp" />
@@ -16,5 +15,6 @@
 		<Project filename="eventthread/eventthread.cbp" />
 		<Project filename="eventthread2/eventthread2.cbp" />
 		<Project filename="eventthread3/eventthread3.cbp" />
+		<Project filename="singlethread2/singlethread2.cbp" />
 	</Workspace>
 </CodeBlocks_workspace_file>

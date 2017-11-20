@@ -32,6 +32,7 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
+		<Unit filename="singlethread2.cpp" />
 		<Extensions>
 			<code_completion />
 			<envvars />
