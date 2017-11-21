@@ -3,7 +3,7 @@
 
 using namespace std;
 
-// 반복을 사용해서 피보나치 순열을
+// 반복을 사용해서 피보나치 수열을
 // 생성하는 함수 구현
 int fibonacci(int n)
 {

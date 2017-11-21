@@ -1,4 +1,4 @@
-// notoptimizecode.cpp : 콘솔 응용 프로그램에 대한 진입점을 정의합니다.
+﻿// notoptimizecode.cpp : 콘솔 응용 프로그램에 대한 진입점을 정의합니다.
 //
 
 #include "stdafx.h"
@@ -26,7 +26,7 @@ public:
 	}
 };
 
-// 피보나치 순열을 계산하는 함수
+// 피보나치 수열을 계산하는 함수
 int fibonacci(int n)
 {
 	if (n <= 1)
