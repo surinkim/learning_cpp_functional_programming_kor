@@ -88,8 +88,8 @@ auto MappingRowByValue(
 	});
 }
 
-template<class T> Row<T>
-ConvertChunkToRow(
+template<class T> 
+Row<T> ConvertChunkToRow(
 	T value)
 {
 	return Row<T>([value]()
@@ -98,8 +98,8 @@ ConvertChunkToRow(
 	});
 }
 
-template<class T> Row<T>
-JoiningAllRows(
+template<class T> 
+Row<T> JoiningAllRows(
 	Row<Row<T>> rowOfRows)
 {
 	while (!rowOfRows.IsEmpty() &&
@@ -171,22 +171,12 @@ auto main() -> int
 	
 	// 100개의 소수를 출력한다.
 	cout << "List of the first 100 prime numbers:" << endl;
-	/*ForEach(
+	ForEach(
 		move(firstAHundredPrimeNumbers),
 		[](int const & i)
 	{
 		cout << i << "\t";
-	});*/
+	});
 
-
-	while (!firstAHundredPrimeNumbers.IsEmpty())
-	{
-		cout << firstAHundredPrimeNumbers.Fetch() << "\t";
-
-		firstAHundredPrimeNumbers = firstAHundredPrimeNumbers.ShiftLastToFirst();
-	}
-
-
-	
 	return 0;
 }
