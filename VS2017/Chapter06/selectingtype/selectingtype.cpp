@@ -9,7 +9,7 @@
 
 using namespace std;
 
-// IfElseDataType 템플릿 정의
+// IfElseDataType 기본 템플릿 정의
 template<
 	bool predicate,
 	typename TrueType,
@@ -18,8 +18,7 @@ template<
 {
 };
 
-// predicate 매개변수에 전달된 값이 TRUE 일 때, 
-// 필요한 템플릿 정의
+// predicate가 true일 때의 부분 특수화
 template<
 	typename TrueType,
 	typename FalseType>
@@ -31,8 +30,7 @@ template<
 	typedef TrueType type;
 };
 
-// predicate 매개변수에 전달된 값이 FALSE 일 때, 
-// 필요한 템플릿 정의
+// predicate가 false일 때의 부분 특수화
 template<
 	typename TrueType,
 	typename FalseType>
