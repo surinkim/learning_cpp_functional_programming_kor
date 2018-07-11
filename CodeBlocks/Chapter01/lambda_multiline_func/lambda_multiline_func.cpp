@@ -22,8 +22,7 @@ auto main() -> int
 		cout << n << " is";
 		if (n < 2)
 		{
-			if (n == 0)
-				cout << " not";
+			cout << " not";
 		}
 		else
 		{
