@@ -26,6 +26,6 @@
 	 auto up3 = unique_ptr<int>{ new int { 1234 } };
 	 ```
 	
-	```C++
+	 ```C++
 	 auto up4 = make_unique<int>(1234);
 	 ```
